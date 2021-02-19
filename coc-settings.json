@@ -11,5 +11,6 @@
     }
   ],
 
-  "java.import.maven.enabled":true
+  "java.import.maven.enabled":true,
+  "docker.enable":true
 }
