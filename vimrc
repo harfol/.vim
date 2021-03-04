@@ -17,6 +17,7 @@ nnoremap <M-up> :m-2<CR>
 nnoremap <M-down> :m+1<CR>
 nnoremap ej :e#<CR>
 nnoremap ek :e#<CR>
+nnoremap q: zz<CR>
 " tab
 map tn :tabe<CR>
 map th :-tabnext<CR>
@@ -90,7 +91,7 @@ autocmd vimenter * if !argc()|NERDTree|endif
 ""当NERDTree为剩下的唯一窗口时自动关闭
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 ""打开vim时自动打开NERDTree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 
 " ===
 " nerdtree
