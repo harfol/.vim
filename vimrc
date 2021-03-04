@@ -17,7 +17,10 @@ nnoremap <M-up> :m-2<CR>
 nnoremap <M-down> :m+1<CR>
 nnoremap ej :e#<CR>
 nnoremap ek :e#<CR>
-nnoremap q: zz<CR>
+nnoremap q zz
+
+
+
 " tab
 map tn :tabe<CR>
 map th :-tabnext<CR>
@@ -60,7 +63,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}    " coc
 Plug 'puremourning/vimspector'    " 调试器
 Plug 'preservim/nerdcommenter'    " 自动注释
 call plug#end()
-
 " ===
 " vim-snazzy
 " ===
