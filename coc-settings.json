@@ -10,7 +10,9 @@
       "default": true
     }
   ],
-
+  "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+  "java.enabled": true,
+  "java.jdt.ls.home": "/usr/local/jdt-language-server-latest",
   "java.import.maven.enabled":true,
   "docker.enable":true
 }

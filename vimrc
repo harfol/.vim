@@ -10,6 +10,8 @@ nnoremap sh <C-w>h
 nnoremap st= :terminal<CR><C-w>J<CR>
 nnoremap J 5j
 nnoremap K 5k
+nnoremap H 5b
+nnoremap L 5w
 nnoremap R :source $MYVIMRC<CR>
 nnoremap Q :q<CR>
 nnoremap W :w<CR>
